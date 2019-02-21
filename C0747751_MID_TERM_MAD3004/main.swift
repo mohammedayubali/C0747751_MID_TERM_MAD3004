@@ -19,19 +19,20 @@ var product5 = Product(manId: 5,manName: "Ali",productId: 105,productName: "Ipho
 var arrayProducts=[product1,product2,product3,product4,product5]
 
 for a in arrayProducts{
-    print(a.mName)
+    print(a.productName)
 }
 
 
-var order1 = Order(OrdId: 1, OrdDate: Date(), Product: [product5,product4],OrdTotal: 110)
-var order2 = Order(OrdId: 2, OrdDate: Date(), Product: [product2,product3],OrdTotal: 300)
-var order3 = Order(OrdId: 3, OrdDate: Date(), Product: [product5,product1],OrdTotal: 450)
+var order1 = Order(OrdId: 1, OrdDate: Date(), Product: [product5,product4],OrdTotal: 500)
+var order2 = Order(OrdId: 2, OrdDate: Date(), Product: [product2,product3],OrdTotal: 240)
+var order3 = Order(OrdId: 3, OrdDate: Date(), Product: [product5,product1],OrdTotal: 520)
 
 var arrayOrders=[1: order1,2:order2,3: order3]
 
 
-
-
+for (_, order) in arrayOrders{
+    print(order.display())
+}
 
 arrayOrders.getOrderById(i: 1)
 
