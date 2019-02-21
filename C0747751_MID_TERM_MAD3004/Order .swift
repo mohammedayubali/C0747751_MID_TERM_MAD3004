@@ -25,7 +25,6 @@ class Order: IDisplay {
     func display() {
         print("Order Id: \(orderId)")
         print("Order Date: \(orderDate)")
-        print("Products: \(product)")
         print("Order Total : \(String(describing: orderTotal!))")
     }
     
