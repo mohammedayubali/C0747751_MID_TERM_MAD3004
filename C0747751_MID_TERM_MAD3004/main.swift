@@ -23,9 +23,9 @@ for a in arrayProducts{
 }
 
 
-var order1 = Order(OrdId: 1, OrdDate: Date(), Product: [product5,product4],OrdTotal: 100)
-var order2 = Order(OrdId: 2, OrdDate: Date(), Product: [product2,product3],OrdTotal: 200)
-var order3 = Order(OrdId: 3, OrdDate: Date(), Product: [product5,product1],OrdTotal: 250)
+var order1 = Order(OrdId: 1, OrdDate: Date(), Product: [product5,product4],OrdTotal: 110)
+var order2 = Order(OrdId: 2, OrdDate: Date(), Product: [product2,product3],OrdTotal: 300)
+var order3 = Order(OrdId: 3, OrdDate: Date(), Product: [product5,product1],OrdTotal: 450)
 
 var arrayOrders=[1: order1,2:order2,3: order3]
 
