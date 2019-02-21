@@ -8,20 +8,17 @@
 
 import Foundation
 
-class Manufacturer : IDisplay {
-var manufacturerId: String
-var manufacturerName: String
-init()
-{
-    manufacturerId = String()
-    manufacturerName = String()
-}
-    init(manufacturerId:String , manufacturerName:String){
-        self.manufacturerId = manufacturerId
-        self.manufacturerName = manufacturerName
+class Manufacturer :IDisplay{
+    var mId: Int
+    var mName: String
+    
+    init(manId: Int, manName: String) {
+        self.mId = manId
+        self.mName = manName
     }
-    func display()
-    {
-        
+    
+    func display() {
+        print("Manufacturer ID: \(mId)")
+        print("Manufacturer Name: \(mName)")
     }
 }

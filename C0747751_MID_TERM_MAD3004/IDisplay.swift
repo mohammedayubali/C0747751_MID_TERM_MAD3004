@@ -15,3 +15,4 @@ extension Int {
     func currency() -> String {
         return "$\(self)"
 }
+}
