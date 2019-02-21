@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+class Order{
+    var orderId: String
+    var orderDate: Date
+    var orderTotal: Float
+    var productArray: ["
+    
+    init(){
+        orderId = String()
+        let orderDate = Date()
+        productArray =
+    }
+    
+     func display()
+    {
+    
+    }
+}

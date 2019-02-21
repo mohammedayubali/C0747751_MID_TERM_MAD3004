@@ -8,10 +8,20 @@
 
 import Foundation
 
-class Manufacturer
+class Manufacturer : IDisplay {
 var manufacturerId: String
 var manufacturerName: String
 init()
 {
-    manufacturerId
+    manufacturerId = String()
+    manufacturerName = String()
+}
+    init(manufacturerId:String , manufacturerName:String){
+        self.manufacturerId = manufacturerId
+        self.manufacturerName = manufacturerName
+    }
+    func display()
+    {
+        
+    }
 }
